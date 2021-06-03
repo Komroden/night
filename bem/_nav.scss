@@ -1,0 +1,31 @@
+.b-nav {
+    &__flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__menu {
+        height: 80px;
+        display: flex;
+        align-items: center;
+    }
+
+    &__link {
+        padding: 30px 20px;
+        font-size: 14px;
+        line-height: 18px;
+        text-transform: uppercase;
+        color: #969696;
+        text-decoration: none;
+        transition-duration: 0.5s;
+        &:hover {
+            color: #ffffff;
+            background: #1f1f1f;
+            cursor: pointer;
+        }
+    }
+
+    &__shop {
+        margin: 0 45px 0 60px;
+    }
+}

@@ -1,0 +1,17 @@
+.b-footer {
+    background: #0f0f0f;
+    height: 50px;
+    &__flex {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        height: 50px;
+    }
+    &__text {
+        margin: 17px 0;
+        font-size: 12px;
+        line-height: 16px;
+        color: #d0d0d0;
+        height: 50px;
+    }
+}
